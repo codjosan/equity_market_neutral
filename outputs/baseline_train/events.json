@@ -1,0 +1,11 @@
+{
+  "short_locate_block": 7,
+  "min_order_block": 7,
+  "blocked_halt_stale": 23,
+  "borrow_recall": 59,
+  "risk_scale_or_cancel": 5,
+  "open_risk_exception": 5,
+  "close_risk_exception": 4,
+  "infeasible_forced_or_gap": 2,
+  "unresolved_borrow_recall": 1
+}

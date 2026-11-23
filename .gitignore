@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.venv/
+study/session.jsonl
+study/test_runs/
+outputs/candidate*/
+reports/final_report.md

@@ -1,0 +1,27 @@
+{
+  "project": "Cross-Sectional Equity Market-Neutral Research Challenge",
+  "seed": 20261122,
+  "trading_days": 504,
+  "assets": 48,
+  "sectors": [
+    "TECH",
+    "FINANCIALS",
+    "HEALTHCARE",
+    "INDUSTRIALS",
+    "CONSUMER",
+    "ENERGY"
+  ],
+  "bar_rows": 24192,
+  "split_days": {
+    "train": 252,
+    "validation": 84,
+    "test": 168
+  },
+  "date_start": "2024-01-02",
+  "date_end": "2025-12-05",
+  "all_data_synthetic": true,
+  "notes": "Regime labels and true asset betas are intentionally not included in the strategy data.",
+  "source_generator_included": false,
+  "data_quality_corrections": "Synthetic highs/lows were adjusted to enclose open and close; no future data was used.",
+  "return_generating_process": "Unreleased to maintain the integrity of blind signal research."
+}

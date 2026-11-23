@@ -1,0 +1,13 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "marketneutral-equity"
+version = "2.0.0"
+requires-python = ">=3.10"
+dependencies = []
+description = "Offline cross-sectional equity market-neutral backtesting and stress-testing framework"
+
+[tool.setuptools.packages.find]
+where = ["src"]

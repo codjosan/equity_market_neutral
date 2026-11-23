@@ -1,0 +1,47 @@
+[
+  {
+    "date": "2024-12-24",
+    "split": "validation",
+    "issues": [
+      "net_limit"
+    ],
+    "gross": 0.5266403456985421,
+    "net": 0.07354693328846149
+  },
+  {
+    "date": "2025-02-17",
+    "split": "validation",
+    "issues": [
+      "net_limit"
+    ],
+    "gross": 0.6106264966849214,
+    "net": 0.03126082335350739
+  },
+  {
+    "date": "2025-03-03",
+    "split": "validation",
+    "issues": [
+      "net_limit"
+    ],
+    "gross": 0.5130104659355941,
+    "net": 0.04858686097459917
+  },
+  {
+    "date": "2025-03-19",
+    "split": "validation",
+    "issues": [
+      "net_limit"
+    ],
+    "gross": 0.5365729451299958,
+    "net": 0.03073993912674355
+  },
+  {
+    "date": "2025-03-24",
+    "split": "validation",
+    "issues": [
+      "net_limit"
+    ],
+    "gross": 0.5724876496789479,
+    "net": 0.031188019056597873
+  }
+]

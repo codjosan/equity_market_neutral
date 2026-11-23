@@ -1,0 +1,51 @@
+{
+  "split": "validation",
+  "scenario": "base",
+  "days": 84,
+  "start_equity": 1000000.0,
+  "end_equity": 991340.65,
+  "net_return_pct": -0.86594,
+  "max_drawdown_pct": 2.21138,
+  "sharpe": -0.66128,
+  "annualized_vol_pct": 3.83547,
+  "trade_count": 2527,
+  "nonzero_position_days": 83,
+  "avg_gross_exposure": 0.572239,
+  "max_gross_exposure": 0.640339,
+  "max_abs_net_exposure": 0.073547,
+  "max_name_exposure": 0.02757,
+  "max_sector_net_exposure": 0.049967,
+  "risk_exception_days": 5,
+  "pnl_reconciliation_error_usd": -0.0,
+  "pnl_reconciliation_passed": true,
+  "events": {
+    "borrow_recall": 33,
+    "infeasible_forced_or_gap": 2,
+    "risk_scale_or_cancel": 4,
+    "open_risk_exception": 4,
+    "close_risk_exception": 5,
+    "blocked_halt_stale": 10,
+    "short_locate_block": 4,
+    "min_order_block": 4
+  },
+  "attribution": {
+    "overnight_price_pnl_usd": 2937.635,
+    "intraday_price_pnl_usd": 18804.186,
+    "commission_usd": 3505.396,
+    "spread_cost_usd": 21234.237,
+    "impact_cost_usd": 3699.2,
+    "borrow_cost_usd": 1962.339,
+    "turnover_usd": 35053963.999,
+    "net_pnl_usd": -8659.351
+  },
+  "limitations": [
+    "Synthetic historical data",
+    "Close-to-next-open signal timing",
+    "Simplified auction and stock-borrow pricing",
+    "Final holdings marked to market without an exit auction"
+  ],
+  "objective_failures": [
+    "nonpositive_net_return",
+    "net_limit"
+  ]
+}

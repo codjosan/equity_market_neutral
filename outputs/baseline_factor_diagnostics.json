@@ -1,0 +1,30 @@
+{
+  "observations": 252,
+  "loadings": {
+    "market_return": 0.017728,
+    "sector_tech_return": -0.01002,
+    "sector_financials_return": 0.021236,
+    "sector_healthcare_return": 0.020065,
+    "sector_industrials_return": 0.016443,
+    "sector_consumer_return": 0.003312,
+    "sector_energy_return": 0.009572
+  },
+  "avg_gross": 0.5710354826304308,
+  "turnover_usd": 99775925.16824539,
+  "gross_return_pct_before_costs": 0.7392456705338977,
+  "net_return_pct_approx": -5.2166195307679475,
+  "max_daily_loss_pct": -0.399273724291663,
+  "daily_return_5th_pctile_pct": -0.25846476539840524,
+  "warnings": [
+    "Post-trade factor regression is descriptive, not ex-ante neutrality proof",
+    "Coefficients are univariate; correlated sectors can confound interpretation"
+  ],
+  "pnl_execution_reconciliation": {
+    "commission_error_usd": -0.0025168245392706012,
+    "spread_error_usd": 0.0002168459031963721,
+    "impact_error_usd": -0.0012706097550108097,
+    "notes": "Per-trade costs rounded to four decimals; small rounding differences expected"
+  },
+  "strategy": "baseline",
+  "split": "train"
+}
